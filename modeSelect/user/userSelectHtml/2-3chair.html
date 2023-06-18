@@ -5,26 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<link rel="stylesheet" href="preview_cinema.css">
+<link rel="stylesheet" href="../userSelectCss/2-3chair.css">
 <body>
     <div style="text-align: center;">
     <a href="../userSelectHtml/2-2preview_view.html"><button>시사회 정보보기</button></a>
     <a href="C:\Users\Playdata\Desktop\2jo-html\modeSelect\main.html"><button>모드 선택으로 돌아가기</button></a>
     </div>
-    <h1>좌석 선택</h1>
+    <h1 style="text-align: center; margin-top: 70px;">좌석 선택</h1>
     <form action="" class="center">
-        <table>
+        <div class="align">
+        <table style=" border-collapse: collapse; border-spacing: 0;"width="600px" height="400px">
             <thead>
-                <tr class="thead">
-                    <td class="thead">1</td>
-                    <td class="thead">2</td>
-                    <td class="thead">3</td>
-                    <td class="thead">4</td>
-                    <td class="thead">5</td>                               
+                <tr>
+                    <th></th>
+                     <th colspan="5" style="background-color: rgb(0, 0, 0); color: azure; text-align: center;">SCREEN</th>                      
                 </tr>
             </thead>
             <tbody>
                 <tr>
+                    <td>A</td>
                     <td>1<input type="radio" name="check"></td>                
                     <td>2<input type="radio" name="check"></td>                
                     <td>3<input type="radio" name="check"></td>                
@@ -32,6 +31,7 @@
                     <td>5<input type="radio" name="check"></td>                               
                 </tr>  
                 <tr>
+                    <td>B</td>
                     <td>1<input type="radio" name="check"></td>                
                     <td>2<input type="radio" name="check"></td>                
                     <td>3<input type="radio" name="check"></td>                
@@ -39,6 +39,7 @@
                     <td>5<input type="radio" name="check"></td>                               
                 </tr> 
                 <tr>
+                    <td>C</td>
                     <td>1<input type="radio" name="check"></td>                
                     <td>2<input type="radio" name="check"></td>                
                     <td>3<input type="radio" name="check"></td>                
@@ -46,6 +47,7 @@
                     <td>5<input type="radio" name="check"></td>                               
                 </tr> 
                 <tr>
+                    <td>D</td>
                     <td>1<input type="radio" name="check"></td>                
                     <td>2<input type="radio" name="check"></td>                
                     <td>3<input type="radio" name="check"></td>                
@@ -53,6 +55,7 @@
                     <td>5<input type="radio" name="check"></td>                               
                 </tr> 
                 <tr>
+                    <td>E</td>
                     <td>1<input type="radio" name="check"></td>                
                     <td>2<input type="radio" name="check"></td>                
                     <td>3<input type="radio" name="check"></td>                
@@ -61,7 +64,11 @@
                 </tr>           
             </tbody>
         </table> 
-        <button type="submit" class="padding_size">입력</button>
+            
+    </div>
+    <div style="display: flex; justify-content: center;">
+    <button type="submit">선택</button>
+</div>
     </form>    
 </body>
 </html>
